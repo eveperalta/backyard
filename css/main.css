@@ -1,0 +1,136 @@
+	.container-fluid{
+		position: relative;
+	}
+.logo img{
+	position: relative;
+	left: 100px;
+	margin:10px;
+}
+nav ul li{
+	position: relative;
+	left: 80px;
+	list-style: none;
+	display: inline-block;
+	padding:20px;
+	top:20px;
+
+}
+.fondo{
+	background-color: #03C207;
+	width: 100%;
+	height: 350px;
+}
+h1{
+	font-family: 'Abel';
+	font-size: 36px;
+	color: #fff;
+	width: 380px;
+	margin: 10px;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	left: 100px;
+	top:40px;
+}
+p{
+	font-family: 'Abel';
+	color: #fff;
+	width: 450px;
+	margin: 10px;
+	position: relative;
+	left: 100px;
+	top:50px;
+}
+form{
+	background-color: rgba(243, 251, 14, 0.4);
+	width: 200px;
+	height: 180px;
+	padding: 10px;
+	margin:10px;
+	position: relative;
+	left: 100px;
+	border-radius: 10px;
+	top: 40px;
+}
+h3{
+	padding: 10px;
+	text-align: center;
+	color: #fff;
+}
+input{
+	width: 180px;
+	height: 25px;
+	margin:5px 5px 3px 0px;
+}
+@media (min-width:320px) and (max-width:375px){
+  body{
+   background-color: green;
+  }
+  .col-6{
+        width:100%;
+        height:auto;
+        margin-left:5px;
+    }
+	nav ul li{
+        padding: 20px;
+		width: 48%;
+		display: inline-block;
+		left: 5px;
+		color: #fff;
+		
+	}
+	p, h1, h3{
+		width: 100%;
+		left: 10px;
+
+	}
+	.fondo{
+		height: 700px;
+	}
+	.logo img{
+		float: left;
+		width:100%;
+	}
+	form{
+		float: left;
+		left: 10px;
+	}
+}
+
+@media (min-width:376px) and (max-width:667px){
+  body{
+   background-color: yellow;
+  }
+  .col-6{
+        width:100%;
+        height:auto;
+        margin-left:5px;
+    }
+	nav ul li{
+        padding: 20px;
+
+		width: 30%;
+		display: inline-block;
+		left: 5px;
+		color: green;
+		
+	}
+	p, h1, h3{
+		width: 100%;
+		left: 10px;
+
+	}
+	.fondo{
+		height: 520px;
+		width: 50%;
+	}
+	.logo img{
+		float: left;
+		width:100%;
+	}
+	form{
+		float: left;
+		left: 10px;
+	}
+
+}
